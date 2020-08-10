@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>402</width>
+    <height>412</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>370</y>
+     <width>341</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="indyInfoGrid">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>371</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>20</number>
+   </attribute>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>20</number>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>Lap 0</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 4</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 5</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 6</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 7</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 8</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 9</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 10</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 11</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 12</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 13</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 14</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 15</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 16</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 17</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 18</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 19</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 20</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 21</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 22</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 23</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 24</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 25</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 26</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 27</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 28</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 29</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 30</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 31</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Lap 32</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Weight Jacker</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Front ARB</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Rear ARB</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="1" column="2">
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="2" column="2">
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsEnabled</set>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="trackNameCombo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>201</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="loadIndyTrack">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>20</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Load</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

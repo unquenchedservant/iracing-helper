@@ -499,10 +499,17 @@ class FancyFrame(wx.Frame):
             with open("indycar/{}.json".format(self.event_location), "r") as f:
                 data = json.load(f)
                 for p in data['lap']:
-                    if p['lap'] == self.current_stint:
-                        lap_weight = p['weight']
-                        lap_front_arb = p['front']
-                        lap_rear_arb  = p['rear']
+                    if self.session_type == "race":
+                        if p['lap'] == self.green_laps and self.green_laps <= 32:
+                            lap_weight = p['weight']
+                            lap_front_arb = p['front']
+                            lap_rear_arb  = p['rear']
+                    else:
+                        if p['lap'] == self.current_stint and self.current_stint <= 32:
+                            lap_weight = p['weight']
+                            lap_front_arb = p['front']
+                            lap_rear_arb = p['rear']
+
                 if lap_weight >= 0 and (self.indy_weight != lap_weight):
                     self.weight_change = True
                     self.weight_color = "white"

@@ -769,6 +769,11 @@ class FancyFrame(wx.Frame):
         """quit if user press q or Esc"""
         if event.GetKeyCode() == 27 or event.GetKeyCode() == ord('Q'): #27 is Esc
             self.Close(force=True)
+        elif event.GetKeyCode() == ord('E'):
+            while True:
+                indyTracks.start(self.event_location)
+                break
+            self.timer.Start(60)
 
     def OnMouse(self, event):
         """implement dragging"""

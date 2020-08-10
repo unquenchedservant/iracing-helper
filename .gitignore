@@ -1,0 +1,11 @@
+build/
+dist/
+.git/
+__pycache__/
+indycar/
+nu
+log.txt
+main.spec
+overlay.pyc
+position.json
+weekendInfo.txt
